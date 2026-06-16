@@ -1,0 +1,157 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #7F8CAA;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+#Forming {
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+#logo {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #5C6B87; 
+  align-items: center;
+}
+
+#logoContent {
+  text-align: center;
+  color: white;
+}
+
+#logoPhone {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+#forForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#text-about-us{
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  max-width: 350px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  min-height: 1em;
+}
+
+
+@media (max-width: 768px) {
+
+  html, body {
+    max-width: 100%;
+  }
+
+
+  #Forming {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #logo {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #logoContent {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #logoPhone {
+    max-width: 80%;
+    height: auto;
+  }
+
+  #textLogo {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  #forForm {
+    width: 100%;
+    height: 100%;
+    padding: 30px 16px;
+    align-items: center;
+  }
+
+  form {
+    width: 100%;
+    max-width: 350px;
+    padding: 0;
+  }
+
+  input, select {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+
